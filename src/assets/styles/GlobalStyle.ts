@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: #fff;
+    background-color: #282A3A;
     font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -34,6 +34,7 @@ const GlobalStyle = createGlobalStyle`
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     overflow: overlay;
+    color: #fff;
   }
 
   button {
